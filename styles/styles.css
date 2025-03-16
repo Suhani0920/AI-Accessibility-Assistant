@@ -19,3 +19,18 @@ body {
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 0);
   }
+  button:hover {
+    background: #e6e6e6;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 7px 2px rgb(138, 138, 138);
+    border: 2px solid rgb(255, 255, 255);
+  }
+  #stop{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 70px;
+    margin-top: 20px;
+    transition-duration: 1s;
+    color: white;
+  }
