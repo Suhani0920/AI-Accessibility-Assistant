@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("✅ Popup loaded successfully!");
+    console.log(" Popup loaded successfully!");
 
     const summarizeButton = document.getElementById("summarize");
     const readTextButton = document.getElementById("readText");
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function stopAll() {
-        console.log("🛑 Stop button clicked!");
+        console.log(" Stop button clicked!");
         speechSynthesis.cancel();
     }
 
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
             element.style.fontSize = newSize;
         });
 
-        console.log("✅ Font size increased for text elements only!");
+        console.log(" Font size increased for text elements only!");
     }));
 
     stopButton.addEventListener("click", () => executeScriptOnPage(stopAll));
