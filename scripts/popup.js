@@ -19,4 +19,19 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
+
+    function summarizeText() {
+        let text = document.body.innerText;
+        if (!text) {
+            alert("No text found on this page.");
+            return;
+        }
+        let summary = text.split('.').slice(0, 3).join('.') + ".";
+        alert("Summary:\n" + summary);
+    }
+
+    function stopAll() {
+        console.log("🛑 Stop button clicked!");
+        speechSynthesis.cancel();
+    }
 });
