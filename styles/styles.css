@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 250px;
+    text-align: center;
+    background-color:rgb(7, 4, 41);
+  }
+  h2{
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+  }
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+  }
