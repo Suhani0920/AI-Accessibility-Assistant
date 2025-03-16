@@ -5,7 +5,7 @@ async function summarizeText() {
   
     let response = await fetch("https://api-inference.huggingface.co/models/facebook/bart-large-cnn", {
       method: "POST",
-      headers: { "Authorization": "Bearer YOUR_HUGGINGFACE_API_KEY" },
+      headers: { "Authorization": "Bearer HUGGINGFACE_API_KEY" },
       body: JSON.stringify({ inputs: fullText })
     });
   
@@ -30,7 +30,7 @@ function readAloud() {
     for (let img of images) {
       let response = await fetch("https://api-inference.huggingface.co/models/openai/clip-vit-base-patch32", {
         method: "POST",
-        headers: { "Authorization": "Bearer YOUR_HUGGINGFACE_API_KEY" },
+        headers: { "Authorization": "Bearer HUGGINGFACE_API_KEY" },
         body: JSON.stringify({ inputs: img.src })
       });
       
