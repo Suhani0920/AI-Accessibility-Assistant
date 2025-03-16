@@ -1,0 +1,23 @@
+
+{
+    "manifest_version": 3,
+    "name": "AI Accessibility Assistant",
+    "version": "1.0",
+    "description": "Enhances accessibility with AI-powered voice navigation, text summarization, and image descriptions.",
+    "permissions": ["activeTab", "storage", "tts", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
