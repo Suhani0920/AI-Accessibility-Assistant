@@ -29,7 +29,7 @@ Click Load unpacked and select the ai-accessibility-assistant folder.
 
 ### 🛠 Technologies Used
 
-Chrome Extension APIs: TTS, Storage, Scripting
+Chrome Extension APIs: TTS, Storage, Scripting.
 
 AI Models:
 
