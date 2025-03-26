@@ -49,11 +49,15 @@ Frontend: HTML5, CSS3, Vanilla JavaScript
 
 ![Screenshot 2025-03-16 182408](https://github.com/user-attachments/assets/83789c26-b1e7-4142-948e-4ebabd2174f7)
 
+---
+
 
  📜**Summarize Page** 
  
 
 ![Screenshot 2025-03-16 182436](https://github.com/user-attachments/assets/37e5793a-272e-4d64-a120-b55c4eb39b50)
+
+---
 
 
  📜**Increase Font Size** 
