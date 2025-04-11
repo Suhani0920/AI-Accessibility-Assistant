@@ -7,7 +7,7 @@
 ## 📖 Features
 ✅ **Summarize Page** – Generates a short summary of the page content.  
 ✅ **Read Aloud** – Reads the webpage text using speech synthesis.  
-✅ **Increase Font Size** – Enlarges text without affecting layout.    
+✅ **Increase Font Size** – Enlarges text without affecting layout size.    
 ✅ **Stop Button** – Stops any ongoing speech synthesis.  
 
 ---
