@@ -10,8 +10,6 @@
 ✅ **Increase Font Size** – Enlarges text without affecting layout size.    
 ✅ **Stop Button** – Stops any ongoing speech synthesis.  
 
----
-
 ## 🛠 Installation
 
 ### 🔹 **Step 1: Clone or Download the Repository**
