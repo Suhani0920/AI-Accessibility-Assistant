@@ -14,7 +14,7 @@
 
 ### 🔹 **Step 1: Clone or Download the Repository**
 
-git clone https://github.com/Suhani0920/AI-Accessibility-Assistant.git
+git clone 
 
 cd ai-accessibility-assistant
 
