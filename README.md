@@ -29,8 +29,7 @@ Click Load unpacked and select the ai-accessibility-assistant folder.
 
 Chrome Extension APIs: TTS, Storage, Scripting.
 
-AI Models:
-
+AI Models::
 facebook/bart-large-cnn (Text Summarization)
 
 openai/clip-vit-base-patch32 (Image Captioning)
